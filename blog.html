@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.17/tailwind.min.css">
+</head>
+
+<body>
+  <div class="container mx-auto p-4">
+    <h1 class="text-4xl font-bold mb-8 text-center">My Blog</h1>
+    <div class="grid grid-cols-1 gap-4">
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <h2 class="text-lg font-semibold mb-4">1.What is DOM and What is the purpose of DOM?</h2>
+        <p class="text-gray-700 mb-4" id="answer1">DOM: It means Document Opject Model. It is a programming API for HTML and web documents.  It is a programming interface that allows us to create, change, or remove elements from the document.
+		<br>
+		Purposes: The DOM represents the document as nodes and objects, and programming languages can interact with the page.  It's used to access the content, structure, and style of a document. The DOM is what allows to change the content and design on structure via JavaScript.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <h2 class="text-lg font-semibold mb-4">2.How will you select HTML elements using DOM? Name the DOM methods.</h2>
+        <p class="text-gray-700 mb-4" id="answer2">We can select elements in a DOM using selectors in many ways. Here is some examples:
+		<br>
+		i. document.querySelector(selector),<br>
+		ii. document.getElementById('id'),<br>
+		iii. document.getElementsByTagName(tagname),<br>
+		iv. document.querySelectorAll(selector),<br>
+		v. document.getElementsByClassName(class),<br>
+		vi. element.parentNode<br>Maybe some more.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <h2 class="text-lg font-semibold mb-4">3.What is event bubble?</h2>
+        <p class="text-gray-700 mb-4" id="answer3">The Event bubbling in JavaScript is a type of event propagation. It is a concept of JS DOM(JavaScript Document Opject Model). It directs an event to its target. It works like this: When an element (like a button) is clicked, an event is directed to the element.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <h2 class="text-lg font-semibold mb-4">4.What is callback function and why will you use it?</h2>
+        <p class="text-gray-700 mb-4" id="answer4"> In JavaScript, a callback is a function that's passed as an argument to a second function. Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function.
+		<br>Why to use: Callbacks allow you to continue executing code while the operation is being executed in the background. Once the operation has completed, the callback function is called with the result of the operation.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
