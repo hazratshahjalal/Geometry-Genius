@@ -4,11 +4,6 @@
 
 
 
-
-
-
-
-
 // blog page functionality
 document.getElementById('target-blog').addEventListener('click', function () {
   window.location.href = "blog.html";
