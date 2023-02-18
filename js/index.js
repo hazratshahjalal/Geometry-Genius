@@ -9,7 +9,10 @@
 
 
 
-
+// blog page functionality
+document.getElementById('target-blog').addEventListener('click', function () {
+  window.location.href = "blog.html";
+})
 
 // background color change randomly while mousehover
 const cards = document.querySelectorAll('.card');
