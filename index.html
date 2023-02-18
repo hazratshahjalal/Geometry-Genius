@@ -37,7 +37,7 @@
         <!-- card triangle -->
         <div class="card w-full bg-base-100 shadow-xl">
           <figure class="px-5 pt-5">
-            <img src="./images/triangle.png" alt="Shoes" />
+            <img src="./images/triangle.png" alt="Triangle" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 id="triangle-name" class="card-title text-2xl">Triangle</h2>
@@ -59,7 +59,7 @@
         <!-- card rectangle -->
         <div class="card w-full bg-base-100 shadow-xl">
           <figure class="px-5 pt-5">
-            <img src="./images/rectangle.png" alt="Shoes" />
+            <img src="./images/rectangle.png" alt="Rectangle" />
           </figure>
           <div class="card-body items-center text-center">
             <h2 id="rectangle-name" class="card-title text-2xl">Rectangle</h2>
@@ -80,71 +80,78 @@
         <!-- card parallelogram -->
         <div class="card w-full bg-base-100 shadow-xl">
           <figure class="px-5 pt-5">
-            <img src="./images/parallelogram.png" alt="Shoes" />
+            <img src="./images/parallelogram.png" alt="parallelogram" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl">Parallelogram</h2>
+            <h2 id="parallelogram-name" class="card-title text-2xl">Parallelogram</h2>
             <p class="text-xl">Area(A) =<span>b</span> * <span>h</span></p>
             <div class="input-fields flex justify-around items-center">
-              <input type="text" placeholder="b" class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <input id="parallelogram-base" type="text" placeholder="b"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
               <p class="pr-5 text-xl">cm</p>
-              <input type="text" placeholder="h" class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <input id="parallelogram-hieght" type="text" placeholder="h"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
               <p class="text-xl">cm</p>
             </div>
             <div class="card-actions pt-3">
-              <button class="btn btn-primary">Calculate</button>
+              <button id="card-parallelogram" class="btn btn-primary">Calculate</button>
             </div>
           </div>
         </div>
         <!-- card rhombus -->
         <div class="card w-full bg-base-100 shadow-xl">
           <figure class="px-5 pt-5">
-            <img src="./images/rhombus.png" alt="Shoes" />
+            <img src="./images/rhombus.png" alt="Rhombus" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl">Rhombus</h2>
+            <h2 id="rhombus-name" class="card-title text-2xl">Rhombus</h2>
             <p class="text-xl">Area(A) = 0.5 * <span>d<sub>1</sub></span> * <span>d<sub>2</sub></span></p>
             <div class="input-fields flex justify-around items-center">
-              <input type="text" placeholder="d" class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <input id="rhombus-distance1" type="text" placeholder="d1"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
               <p class="pr-5 text-xl">cm</p>
-              <input type="text" placeholder="d" class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <input id="rhombus-distance2" type="text" placeholder="d2"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
               <p class="text-xl">cm</p>
             </div>
             <div class="card-actions pt-3">
-              <button class="btn btn-primary">Calculate</button>
+              <button id="card-rhombus" class="btn btn-primary">Calculate</button>
             </div>
           </div>
         </div>
         <!-- card pentagon -->
         <div class="card w-full bg-base-100 shadow-xl">
           <figure class="px-5 pt-5">
-            <img src="./images/pentagon.png" alt="Shoes" />
+            <img src="./images/pentagon.png" alt="pentagon" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl">Pentagon</h2>
+            <h2 id="pentagon-name" class="card-title text-2xl">Pentagon</h2>
             <p class="text-xl">Area(A) = 0.5 * <span>p</span> * <span>b</span></p>
             <div class="input-fields flex justify-around items-center">
-              <input type="text" placeholder="p" class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <input id="pentagon-perimeter" type="text" placeholder="p"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
               <p class="pr-5 text-xl">cm</p>
-              <input type="text" placeholder="b" class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <input id="pentagon-base" type="text" placeholder="b"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
               <p class="text-xl">cm</p>
             </div>
             <div class="card-actions pt-3">
-              <button class="btn btn-primary">Calculate</button>
+              <button id="card-pentagon" class="btn btn-primary">Calculate</button>
             </div>
           </div>
         </div>
         <!-- card ellipse -->
         <div class="card w-full bg-base-100 shadow-xl">
           <figure class="px-5 pt-5">
-            <img src="./images/ellipse.png" alt="Shoes" />
+            <img src="./images/ellipse.png" alt="Ellipse" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl">Ellipse</h2>
+            <h2 id="ellipse-name" class="card-title text-2xl">Ellipse</h2>
             <p class="text-xl">Area(A) =
               π<span>a</span><span>b</span></p>
             <div class="input-fields flex justify-around items-center">
-              <input type="text" placeholder="a" class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <input id="ellipse-a" type="text" placeholder="a"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
               <p class="pr-5 text-xl">cm</p>
               <input type="text" placeholder="b" class="input input-bordered w-full max-w-xs" />
               <p class="text-xl bg-gray-200">cm</p>
