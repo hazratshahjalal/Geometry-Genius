@@ -150,14 +150,14 @@
             <p class="text-xl">Area(A) =
               π<span>a</span><span>b</span></p>
             <div class="input-fields flex justify-around items-center">
-              <input id="ellipse-a" type="text" placeholder="a"
+              <input id="ellipse-axis-a" type="text" placeholder="a"
                 class="input input-bordered w-full max-w-xs bg-gray-200" />
               <p class="pr-5 text-xl">cm</p>
-              <input type="text" placeholder="b" class="input input-bordered w-full max-w-xs" />
+              <input id="ellipse-axis-b" type="text" placeholder="b" class="input input-bordered w-full max-w-xs" />
               <p class="text-xl bg-gray-200">cm</p>
             </div>
             <div class="card-actions pt-3">
-              <button class="btn btn-primary">Calculate</button>
+              <button id="card-ellipse" class="btn btn-primary">Calculate</button>
             </div>
           </div>
         </div>
@@ -187,6 +187,8 @@
     </section>
   </main>
   <!-- main section end -->
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
