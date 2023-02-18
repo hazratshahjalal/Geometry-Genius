@@ -15,7 +15,7 @@
   <!-- header start -->
   <header class="bg-emerald-100 my-5">
     <section>
-      <div class="nav-menu p-5 flex justify-between items-center">
+      <div class="nav-menu p-5 flex flex-col lg:flex-row md:flex-row justify-between items-center">
         <div class="nav-start">
           <a href="#">
             <h2 class="text-5xl font-semibold">Interactive</h2>
@@ -31,7 +31,53 @@
   <!-- header end -->
 
   <!-- main section start -->
+  <main>
+    <section class="flex mt-5 flex-col md:flex-row lg:flex-row">
+      <div class="cards w-[70%] grid md:grid-cols-2 lg:grid-cols-3 justify-around gap-3">
+        <div class="card w-full bg-base-100 shadow-xl">
+          <figure class="px-5 pt-5">
+            <img src="./images/triangle.png" alt="Shoes" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 id="triangle-name" class="card-title text-2xl">Triangle</h2>
+            <p class="text-xl">Area(A) = 0.5 * <span>b</span> * <span>h</span></p>
+            <div class="input-fields flex justify-around items-center">
+              <input id="triangle-base" type="text" placeholder="b"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <p class="pr-5 text-xl">cm</p>
+              <input id="triangle-hieght" type="text" placeholder="h"
+                class="input input-bordered w-full max-w-xs bg-gray-200" />
+              <p class="text-xl">cm</p>
+            </div>
+            <p id="number-validation" class="text-md text-red-600 hidden">Please input valid number value!</p>
+            <div class="card-actions pt-3">
+              <button id="card-triangle" class="btn btn-primary">Calculate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calculate-table w-[30%] pl-5">
+        <h1 class="text-4xl text-center">Area Calculation</h1>
+        <div class="overflow-x-auto">
+          <table class="table w-full">
+            <!-- head -->
+            <thead>
+              <tr>
+                <th> </th>
+                <th>Name</th>
+                <th>Area(cm<sup>2</sup>)</th>
+                <th>Area(m<sup>2</sup>)</th>
+              </tr>
+            </thead>
+            <tbody id="table-container">
+              <!-- row 1 -->
 
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
   <!-- main section end -->
 </body>
 
